@@ -1,2 +1,0 @@
-# crud-disciplinas-python-bdd
-
