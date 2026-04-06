@@ -93,4 +93,5 @@ def test_nao_permitir_vagas_invalidas():
         })
         assert False
     except ValueError as error:
-        assert str(error) == "Número de vagas deve ser inteiro maior que zero"
+        assert str(error) == "Número de vagas deve ser inteiro maior que zero ou"
+
