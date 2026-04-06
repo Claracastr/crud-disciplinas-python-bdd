@@ -148,3 +148,15 @@ def test_nao_permitir_disciplina_verao_invalida(service):
 def test_listar_disciplinas_vazio(service):
     lista = service.listar_disciplinas()
     assert lista == []
+
+def test_falha_de_proposito(service):
+    disciplina = service.criar_disciplina({
+        "titulo": "Algoritmos",
+        "data_inicio": "2026-08-01",
+        "data_termino": "2026-12-10",
+        "numero_vagas": 40,
+        "disciplina_verao": False
+    })
+
+    # erro proposital
+    assert disciplina["titulo"] == "Banco de Dados"
