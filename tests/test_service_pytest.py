@@ -144,3 +144,7 @@ def test_nao_permitir_disciplina_verao_invalida(service):
             "numero_vagas": 10,
             "disciplina_verao": "sim"
         })
+
+def test_listar_disciplinas_vazio(service):
+    lista = service.listar_disciplinas()
+    assert lista == []
