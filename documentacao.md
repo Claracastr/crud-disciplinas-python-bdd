@@ -174,4 +174,4 @@ Dessa forma, a atividade foi atendida com uma solução simples, funcional e org
 
 16. Conclusão
 
-O projeto permitiu aplicar, na prática, conceitos importantes de desenvolvimento de software, como organização de código, testes funcionais, cobertura de testes, versionamento com Git e automação com GitHub Actions. Além de atender aos requisitos da atividade, a implementação também contribuiu para o aprendizado de boas práticas utilizadas em contextos reais de desenvolvimento.
+O projeto permitiu aplicar, na prática, conceitos importantes de desenvolvimento de software, como organização de código, testes funcionais, cobertura de testes, versionamento com Git e automação com GitHub Actions. Além de atender aos requisitos da atividade, a implementação também contribuiu para o aprendizado de boas práticas utilizadas em contextos reais de desenvolvimento..
