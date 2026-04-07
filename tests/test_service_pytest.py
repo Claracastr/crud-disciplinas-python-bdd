@@ -148,6 +148,3 @@ def test_nao_permitir_disciplina_verao_invalida(service):
 def test_listar_disciplinas_vazio(service):
     lista = service.listar_disciplinas()
     assert lista == []
-
-def test_falha_de_proposito(service):
-    assert 1 == 2
